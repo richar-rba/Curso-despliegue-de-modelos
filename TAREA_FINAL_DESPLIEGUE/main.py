@@ -1,7 +1,7 @@
 
 from contextlib import asynccontextmanager  # para ver si bundle(modelo) esta cargado
-#from typing import Literal : para colocar valores literales categoricas 
-import joblib  # cargar el bundle
+#from typing import Literal : 
+import joblib  
 import pandas as pd 
 from fastapi import FastAPI, HTTPException # para saber el error que se comete 
 from pydantic import BaseModel,Field # para manejar las varibles predictoras las validaciones 
