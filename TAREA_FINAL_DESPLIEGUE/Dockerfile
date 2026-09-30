@@ -2,7 +2,7 @@
 
 #La imagen base
 
-FROM python: 3.12.3-slim
+FROM python:3.12.3-slim
 
 # La carpeta donde va a vivir todo dentro del cotenedor 
 
